@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -18,8 +19,9 @@ sleep(1)
 botao = driver.find_element(By.XPATH, '//button[@class="btn_primary btn_inventory"]')
 botao.click()
 sleep(1)
-botao = driver.find_element(By.XPATH, '')
+botao = driver.find_element(By.XPATH, '/html/body/div/div[2]/div[1]/div[2]/a')
 botao.click()
+sleep(1)
 input()
 
 
